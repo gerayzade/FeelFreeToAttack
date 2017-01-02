@@ -15,7 +15,7 @@ class User extends Password{
 		try { 
             
             // SECURE FROM SQL INJECTION
-            $username = mysqli_real_escape_string($username);
+            //$username = mysqli_real_escape_string($username);
             // ALINMADI?
 
 			$stmt = $this->_db->prepare("SELECT password, username, id FROM users WHERE username = '" . $username . "';" );
