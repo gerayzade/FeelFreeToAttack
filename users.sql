@@ -24,4 +24,3 @@ INSERT INTO `users` (`id`, `group`, `username`, `password`, `name`, `surname`, `
 (3, 'user', 'Kanan', 'macos', 'Kenan', 'Babayev', 'IT', '2018', 'https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/1934755_1270714299609524_3096414367532997212_n.jpg?oh=a8a49137bc6512bde9ce64abf2a66f24&oe=58C65245'),
 (4, 'user', 'Emil', 'linux', 'Emil', 'Imanov', 'IT', '2018', 'https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/10525810_712092252188417_2432270176989836975_n.jpg?oh=43dd49aa086fe874ded8741c2ddfe46d&oe=58CE267F'),
 (1, 'root', 'root', 'ghost', '', '', '', '', ''),
-(10, 'root', 'hacker', 'sqlinjection', '', '', '', '', '');
