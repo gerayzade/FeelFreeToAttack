@@ -13,10 +13,6 @@ class User extends Password{
 	private function get_user_hash($username){
 
 		try { 
-            
-            // SECURE FROM SQL INJECTION
-            //$username = mysqli_real_escape_string($username);
-            // ALINMADI?
 
 			$stmt = $this->_db->prepare("SELECT password, username, id FROM users WHERE username = '" . $username . "';" );
 			$stmt->execute(array('username' => $username));
