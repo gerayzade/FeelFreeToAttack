@@ -9,5 +9,3 @@ Before you start working with it:
 <li>Create new database and import `users` table there (<i>users.sql</i>).</li>
 <li>Change database credentials in <i>config.php</i> and <i>db.php</i> files.</li>
 </ul>
-
-<b>   *</b> Uncomment 18th line in <i>user.php</i> in order to make application more secured.
